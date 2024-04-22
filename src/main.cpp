@@ -4,9 +4,9 @@
 #include <Arduino_JSON.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
-const char* authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQURNSU4iLCJuYW1lIjoiYWRtaW4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcxMzYwNDY5NCwiZXhwIjoxNzE0MjA5NDk0fQ.pwwSWoA0wYtusGdprzsLY1CtY-P4Ngiwso2by4lsPyk";
-const char* ssid = "ssid ";
-const char* password = "password";
+const char* authToken = "your bearer token";
+const char* ssid = "M20_Pro";
+const char* password = "hazem123";
 
 void notFound(AsyncWebServerRequest *request) {
     request->send(404, "text/plain", "Not found");
